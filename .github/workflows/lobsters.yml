@@ -15,7 +15,7 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v2
       - name: Fetch newest 
-        uses: githubocto/flat@v2
+        uses: githubocto/flat@v3
         with:
           http_url: https://lobste.rs/newest.json
           downloaded_filename: newest.json
